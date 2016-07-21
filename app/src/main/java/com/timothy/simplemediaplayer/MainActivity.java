@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     mMediaPlayer.setDisplay(surfaceHolder);
                     mMediaPlayer.setDataSource(VIDEO_URL);
                     mMediaPlayer.prepare();
+                    ///7785852852
                     mMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
                         @Override
                         public void onPrepared(MediaPlayer mediaPlayer) {
